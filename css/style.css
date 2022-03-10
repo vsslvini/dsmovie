@@ -6,6 +6,8 @@
     --color-primary:#4D41C0;
     --white: #fff;
     --text-light-gray: #AAA;
+    --star-yellow :#FFBB3A;
+
 
 }
 
@@ -84,7 +86,7 @@ a, a:hover{
     align-items: center;
     justify-content: space-between;
     border-radius: 0 0 8px 8px;
-    min-height: 150px;
+    min-height: 220px;
     
 }
 
@@ -93,8 +95,31 @@ a, a:hover{
     font-weight: 400x;
     margin-bottom: 25px;
     text-align: center;
+}
+.dsmivie-card-description-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dsmivie-card-description-bottom h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--star-yellow);
+}
+
+.dsmivie-card-description-bottom img{
+    width: 22px;
 
 }
+.dsmivie-card-description-bottom p{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-gray);
+    margin-bottom: 10px;
+}
+
+
 
 .dsmovie-btn, .dsmovie-btn:hover{
     width: 180px;
@@ -137,7 +162,7 @@ a, a:hover{
 }
 .dsmovie-form-group label{
     font-size:12px;
-    color: var(--text-light-gray)
+    color: var(--text-light-gray);
 }
 
 .indsmovie-form-btn-contaer{
